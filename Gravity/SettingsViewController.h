@@ -3,11 +3,11 @@
 //  Gravity
 //
 //  Created by raxod502 on 12/24/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013–2022 Radian LLC and contributors.
 //
 
-#import <UIKit/UIKit.h>
 #import "MainScene.h"
+#import <UIKit/UIKit.h>
 
 @interface SettingsViewController : UIViewController <UITextFieldDelegate>
 
@@ -21,15 +21,15 @@
 @property double scale;
 @property int vertexRatio;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UITextField *speedField;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *collisionSwitch;
-@property (weak, nonatomic) IBOutlet UITextField *accuracyField;
-@property (weak, nonatomic) IBOutlet UITextField *updateField;
-@property (weak, nonatomic) IBOutlet UITextField *positionFieldX;
-@property (weak, nonatomic) IBOutlet UITextField *positionFieldY;
-@property (weak, nonatomic) IBOutlet UITextField *scaleField;
-@property (weak, nonatomic) IBOutlet UITextField *vertexField;
+@property(weak, nonatomic) IBOutlet UIImageView *imageView;
+@property(weak, nonatomic) IBOutlet UITextField *speedField;
+@property(weak, nonatomic) IBOutlet UISegmentedControl *collisionSwitch;
+@property(weak, nonatomic) IBOutlet UITextField *accuracyField;
+@property(weak, nonatomic) IBOutlet UITextField *updateField;
+@property(weak, nonatomic) IBOutlet UITextField *positionFieldX;
+@property(weak, nonatomic) IBOutlet UITextField *positionFieldY;
+@property(weak, nonatomic) IBOutlet UITextField *scaleField;
+@property(weak, nonatomic) IBOutlet UITextField *vertexField;
 
 - (void)viewDidLoad;
 - (IBAction)submitValues:(id)sender;

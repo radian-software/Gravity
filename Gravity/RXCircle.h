@@ -3,12 +3,12 @@
 //  Gravity
 //
 //  Created by raxod502 on 12/22/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013–2022 Radian LLC and contributors.
 //
 
+#import "RXShape.h"
 #import <Foundation/Foundation.h>
 #import <GLKit/GLKit.h>
-#import "RXShape.h"
 
 @interface RXCircle : RXShape
 

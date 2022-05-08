@@ -3,37 +3,37 @@
 //  Gravity
 //
 //  Created by raxod502 on 12/22/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013–2022 Radian LLC and contributors.
 //
 
-#import <Foundation/Foundation.h>
-#import <GLKit/GLKit.h>
+#import "AppDelegate.h"
 #import "RXScene.h"
 #import "Sphere.h"
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
+#import <GLKit/GLKit.h>
 
 @interface MainScene : RXScene <UIGestureRecognizerDelegate> {
-    NSMutableArray *spheres;
-    double speed;
-    int resolution;
-    double lastScale;
-    double netScale;
-    double lastTime;
-    double lastX, lastY;
-    double netX, netY;
-    Sphere *selection;
-    NSString *displayText;
-    GLKViewController *controller;
-    UIButton *editButton;
-    UIButton *settingsButton;
-    UIButton *addButton;
-    BOOL paused;
-    int collisionType;
-    AppDelegate *app;
-    Sphere *notNewSphere;
-    BOOL addingSphere;
-    UINavigationController *navigation;
-    int vertexRatio;
+  NSMutableArray *spheres;
+  double speed;
+  int resolution;
+  double lastScale;
+  double netScale;
+  double lastTime;
+  double lastX, lastY;
+  double netX, netY;
+  Sphere *selection;
+  NSString *displayText;
+  GLKViewController *controller;
+  UIButton *editButton;
+  UIButton *settingsButton;
+  UIButton *addButton;
+  BOOL paused;
+  int collisionType;
+  AppDelegate *app;
+  Sphere *notNewSphere;
+  BOOL addingSphere;
+  UINavigationController *navigation;
+  int vertexRatio;
 }
 
 @property NSMutableArray *spheres;

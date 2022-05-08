@@ -3,7 +3,7 @@
 //  Gravity
 //
 //  Created by raxod502 on 12/22/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013–2022 Radian LLC and contributors.
 //
 
 #import "RXCircle.h"
@@ -54,9 +54,9 @@
     [effect setUseConstantColor:YES];
     [effect setConstantColor:[self color]];
     [effect prepareToDraw];
-    
+
     [super render];
-    
+
     [[effect transform] setModelviewMatrix:original];
 }
 

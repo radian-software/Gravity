@@ -3,23 +3,23 @@
 //  Gravity
 //
 //  Created by raxod502 on 12/23/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013–2022 Radian LLC and contributors.
 //
 
-#import <UIKit/UIKit.h>
-#import "Sphere.h"
 #import "MainScene.h"
+#import "Sphere.h"
+#import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController <UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet UITextField *positionX;
-@property (weak, nonatomic) IBOutlet UITextField *positionY;
-@property (weak, nonatomic) IBOutlet UITextField *velocityX;
-@property (weak, nonatomic) IBOutlet UITextField *velocityY;
-@property (weak, nonatomic) IBOutlet UITextField *radius;
-@property (weak, nonatomic) IBOutlet UITextField *mass;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UIButton *deleteButton;
+@property(weak, nonatomic) IBOutlet UITextField *positionX;
+@property(weak, nonatomic) IBOutlet UITextField *positionY;
+@property(weak, nonatomic) IBOutlet UITextField *velocityX;
+@property(weak, nonatomic) IBOutlet UITextField *velocityY;
+@property(weak, nonatomic) IBOutlet UITextField *radius;
+@property(weak, nonatomic) IBOutlet UITextField *mass;
+@property(weak, nonatomic) IBOutlet UIImageView *imageView;
+@property(weak, nonatomic) IBOutlet UIButton *deleteButton;
 
 @property Sphere *sphere;
 @property MainScene *presentingScene;
